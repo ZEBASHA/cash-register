@@ -1,0 +1,116 @@
+body{
+	background-color: #6cc4fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+	height: 120px;
+	font-size: bold;
+	
+}
+
+
+
+
+
+
+
+
+.wrapper{
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14);
+    padding: 20px;
+    display: none;
+    width: 450px
+}
+
+form{
+	position: center;
+	background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 20px;
+}
+
+.register{
+    background-image: url("https://secureservercdn.net/166.62.112.219/m3a.5ff.myftpupload.com/wp-content/uploads/2014/11/Cash-register-machine.jpg");
+    background-size: 60%;
+    padding: 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.14);
+}
+
+img{
+    max-width: 150px
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px
+}
+
+.result img{
+    margin-right: 50px;
+}
+
+.amount{
+    font-size: 2em;
+}
+
+#priceCash{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255,171,64);
+    margin: 50px 0 20px 0;
+    position: relative;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14);
+    border-radius: 5px;
+}
+
+.btn{
+    position: absolute;
+    left: 43%;
+    top: -30px;
+    border: 2px solid #fff;
+    background:rgb(255,171,64);
+}
+
+#change, #price, #cash{
+    background:rgb(255,171,64);
+    padding: 10px;
+    color: rgb(66,66,66);
+    font-weight: bold;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#change{
+    border-radius: 5px;
+}
+
+#price, #cash{
+    width: 100%;
+    margin: 10px;
+}
